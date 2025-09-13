@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import './blog.css';
-import { Header } from './components';
+import { Header, Footer } from './components';
 
 const Content = styled.div`
     padding: 120px 0 120px 0;
@@ -17,8 +17,6 @@ const AppColumn = styled.div`
     background-color: #ffffffff;
     margin: 0 auto;
 `;
-
-const Footer = () => <div>Футер</div>;
 
 function Blog() {
     return (
