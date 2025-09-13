@@ -1,0 +1,8 @@
+body {
+    background-color: #405060;
+}
+html,
+body,
+#root {
+    height: 100%;
+}
