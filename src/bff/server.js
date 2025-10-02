@@ -1,5 +1,4 @@
 import { addUser } from './add-user.js';
-// import { createSession } from './create-session.js';
 import { getUser } from './get-user.js';
 import { sessions } from './sessions';
 
@@ -37,16 +36,16 @@ export const server = {
     },
 
     async register(regLogin, regPassword) {
-        const user = await getUser(regLogin);
+        const existedUser = await getUser(regLogin);
 
-        if (user) {
+        if (existedUser) {
             return {
                 error: 'Такой пользователь существует',
                 res: null,
             };
         }
 
-        await addUser(regLogin, regPassword);
+        const user = await addUser(regLogin, regPassword);
 
         return {
             error: null,
