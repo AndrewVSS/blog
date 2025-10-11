@@ -4,29 +4,15 @@
       "id": "001",
       "login": "andrew",
       "password": "qwerty123",
-      "registed_at": "2050-09-22",
+      "registered_at": "2050-09-22",
       "role_id": "0"
     },
     {
-      "id": "5936",
-      "login": "ivan",
-      "password": "qazwsx123",
-      "registed_at": "2045-11-24 00:52",
-      "role_id": 2
-    },
-    {
-      "id": "9998",
-      "login": "ivan2",
+      "id": "002",
+      "login": "andrew4",
       "password": "qwerty123",
-      "registed_at": "2058-08-05 15:31",
-      "role_id": 2
-    },
-    {
-      "id": "bf2d",
-      "login": "andrew",
-      "password": "qwertasdf",
-      "registed_at": "2060-02-04 03:35",
-      "role_id": 2
+      "registered_at": "2050-09-22",
+      "role_id": "0"
     }
   ],
   "roles": [
