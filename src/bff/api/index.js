@@ -1,5 +1,6 @@
 export * from './add-user.js';
 export * from './delete-user.js';
+export * from './get-post.js';
 export * from './get-roles.js';
 export * from './get-user.js';
 export * from './get-users.js';

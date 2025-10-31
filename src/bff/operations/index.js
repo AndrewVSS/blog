@@ -1,4 +1,5 @@
 export * from './authorize.js';
+export * from './fetch-post.js';
 export * from './fetch-roles.js';
 export * from './fetch-users.js';
 export * from './logout.js';
